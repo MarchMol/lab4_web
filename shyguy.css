@@ -1,7 +1,12 @@
 #body{
-    width:500px;
-    height:500px;
-    display: flex;
+    position:relative;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 
@@ -12,25 +17,58 @@ width:180px;
 height:200px;
 background-color:rgb(247, 44, 44);
 border:solid #00000000;
-border-radius: 100% 100% 70% 70%;
+border-radius: 100% 100% 70% 40%;
 display: flex;
 justify-content:right;
 align-items: center;
 }
 
+#head_detail{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#head_shadow{
+    transform: rotate(-50deg);
+    position:relative;
+    width:100px;
+    height:30px;
+    background-color: #3c3781;
+    border-top: 3px solid rgb(197, 36, 36);
+    border-radius: 100%;
+    display: flex;
+    margin-top: -250px;
+    margin-left: -13px;
+
+    }
+
+#top_robe{
+    transform: rotate(-15deg);
+    position: relative;
+    width: 69px;
+    height: 30px;
+    background-color:rgb(247, 44, 44);
+    border-radius: 100% 0% 0% 100%;
+    margin-top: -79px;
+    margin-left: -0px;
+}
+
 #face{
+    position:relative;
     justify-content:right;
     width: 300px;
     display: flex;
 }
 
 
+
 #mask{
+    position:relative;
     width:150px;
     height:170px;
-    background-color:rgb(255, 255, 255);
+    background:linear-gradient(0.415turn,#ffffff,#ffffff,#ffffff, #b4b4b4);
     border-radius:90% 90% 90% 90%;
-    border:solid #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,11 +78,14 @@ align-items: center;
 
 
 #mask_band{
-    width:25px;
+    transform: rotate(-3deg);
+    width:40px;
     height:30px;
     background-color:rgb(155, 91, 32);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.178);
     border-radius: 10% 0% 0% 10% ;
     margin-top: 80px;
+    margin-right: -5px;
 }
 
 
@@ -61,18 +102,21 @@ align-items: center;
     height:70px;
     background-color:rgb(0, 0, 0);
     border-radius:100%;
-    border:solid #5f5f5f;
+    border-bottom: 5px solid #5f5f5f;
+    border-right: 5px solid #5f5f5f;
+
     margin-bottom: 20px;
     
 }
 
 #right_eye{
     transform: rotate(-3deg);
-    width:45px;
+    width:41px;
     height:70px;
     background-color:rgb(0, 0, 0);
     border-radius:100%;
-    border:solid #5f5f5f;
+    border-bottom: 5px solid #5f5f5f;
+    border-right: 5px solid #5f5f5f;
     margin-bottom: 20px;
 }
 #mouth{
@@ -85,3 +129,173 @@ align-items: center;
 
     margin-top: 100px;
 }
+
+#body_mid{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#torax{
+    width: 50%;
+    display: grid;
+
+}
+
+#hand{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hand_left{
+    transform: rotate(-48deg);
+    position: relative;
+    width: 74px;
+    height: 35px;
+    background-color:rgb(247, 44, 44);
+    border-radius: 120% 0% 100% 400%;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.178);
+    margin-left:-32px;
+    margin-top: -35px;
+}
+
+#hand_right{
+    transform: rotate(-45deg);
+    position: relative;
+    width: 85px;
+    height: 33px;
+    background-color:rgb(247, 44, 44);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.178);
+    border-radius: 0% 120% 400% 0%;
+    margin-right: 42px;
+    margin-top: -68px;
+}
+
+#belly{
+    transform: rotate(-5deg);
+    position: relative;
+    width: 175px;
+    height: 25px;
+    border-top: 10px solid rgb(247, 44, 44);
+    background-color:rgb(247, 44, 44);
+    border-radius: 15% 10% 40% 40%;
+    margin-top: -15px;
+    margin-left: 17px;
+
+}
+
+
+#belt{
+    transform: rotate(-6deg);
+    position: relative;
+    width: 178px;
+    height: 12px;
+    background-color: rgb(155, 91, 32);
+    border-radius: 0% 0% 40% 40%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.178);
+    border-top: 3px solid rgb(197, 36, 36);
+    margin-top: -38px;
+    margin-left: 14px;
+    display: flex;
+}
+
+#belt_lock{
+
+    position: relative;
+    width: 20px;
+    height: 15px;
+    background-color:rgb(255, 208, 0);
+    border-top: 2px solid rgba(0, 0, 0, 0.20);
+    border-left: 3px solid rgba(0, 0, 0, 0.13);
+    border-radius: 20% 20% 20% 20%;
+ 
+    margin-left: 95px;
+
+}
+
+#bottom_robe{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#feet{
+    
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+#foot_left{
+    width: 70px;
+    height: 36px;
+    display: flex;
+    background-color: rgb(7, 65, 255);
+    border-bottom: 6px solid rgb(155, 91, 32);
+    border-radius: 150% 150% 200% 200%;
+    margin-top: -25px;
+    margin-left: 15px;
+}
+
+#foot_right{
+    transform: rotate(-14deg);
+    width: 100px;
+    height: 36px;
+    display: flex;
+    background-color: rgb(7, 65, 255);
+    border-bottom: 6px solid rgb(155, 91, 32);
+    border-radius: 120% 300% 80% 180%;
+    margin-top: -39px;
+    margin-right: 55px;
+    z-index: -1;
+}
+
+
+#robe_left{
+    
+    transform: rotate(-14deg);
+    position: relative;
+    width: 64px;
+    height: 30px;
+
+    border-top: 22px solid rgb(247, 44, 44);
+
+    border-radius: 100% 100% 100% 100%;
+    margin-left: 6px;
+    margin-top: -15px;
+
+
+}
+#robe_right{
+    transform: rotate(2deg);
+    position: relative;
+    width: 70px;
+    height: 30px;
+    border-top: 25px solid rgb(247, 44, 44);
+    border-radius: 100% 100% 100% 100%;
+    margin-top: -30px;
+    margin-right: 66px;
+}
+#robe_center{
+    display: flex;
+    transform: rotate(175deg);
+    position: relative;
+    width: 209px;
+    height: 10px;
+    border-top: 25px solid rgb(247, 44, 44);
+    border-radius: 100% 100% 100% 100%;
+    margin-top: -49px;
+    margin-left: 5px;
+}
+#robe_shadow{
+    transform: rotate(-1deg);
+    position: relative;
+    width: 174px;
+    height: 40px;
+    border-top: 9px solid rgba(0, 0, 0, 0.315);
+    border-radius: 100% 100% 100% 100%;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+
