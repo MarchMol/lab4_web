@@ -2,7 +2,7 @@
 /*                  General style                   */
 /* ------------------------------------------------ */
 body {
-    background-image: url('bg_image.webp');
+    background-image: url('imgs/bg_image.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,7 +11,7 @@ body {
 .balloons {
     height: 200px;
     width: 300px;
-    background-image: url('balloons.png');
+    background-image: url('imgs/balloons.png');
     background-size: cover;
 }
 
